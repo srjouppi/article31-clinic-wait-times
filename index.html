@@ -74,6 +74,28 @@
 
       .hidden { visibility: hidden; }
 
+	  .back-article {
+        max-width:300px;
+        display:inline-block;
+        text-align:left;
+        padding-left:1em;
+    }
+
+    .forward-article{
+        max-width:300px;
+        display:inline-block;
+        text-align:right;
+        padding-right:1em;
+		
+        }
+	    .bottom-nav{
+        max-width:900px;
+        display: flex;
+        justify-content: right;
+        margin:0 auto;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
       /* When it's less than 700 pixels wide, do normal scrollytelling */
       @media only screen and (min-width: 700px) {
         #scrolly.side-by-side {
@@ -121,8 +143,10 @@
 			<br/>Advisor: <a href="http://randihutterepstein.com/" target="_blank" style="color:gray;">Randi Hutter Epstein</a></span>
 		<br/>
         <h1>"Yes, but we have a waiting list."</h1>
-        <h2> NYC community mental health clinics struggle to find room and therapists for children</h2>        </div>
-    </div>
+        <h2> NYC community mental health clinics struggle to find room and therapists for children</h2>        
+		<span class="author"><a href="https://srjouppi.github.io/">by Shelby Jouppi</a></span>
+	</div>
+</div>
 <div class="text-container">
 	<br/>
     <p>Three hundred patients.</p>
@@ -4062,6 +4086,10 @@
 
 	window.addEventListener("resize", scroller.resize);
     </script>
+<div class="bottom-nav">
+		<!-- <div class="back-article"><a href="/nyc-child-psychologists/"><-- </a></div> -->
+		<div class="forward-article"><a href="../srjouppi.github.io/nyc-child-psychologists/">Visualizing the child psychologist shortage --></a></div>
+</div>
 <div class="footer">
 	<a href="https://srjouppi.github.io/"><-- Back to portfolio</a>
 </div>
